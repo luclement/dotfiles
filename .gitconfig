@@ -1,8 +1,8 @@
 [user]
-  name = Jeff Geerling
-  email = geerlingguy@mac.com
+  name = Clement Lu
+  email = hello@clementlu.dev
 [core]
-  editor = vi
+  editor = vim
   excludesfile = ~/.gitignore
   autocrlf = input
 [color]
@@ -13,7 +13,7 @@
 [init]
   defaultBranch = master
 [web]
-  browser = google-chrome
+  browser = safari
 [credential]
   helper = osxkeychain
 [push]
