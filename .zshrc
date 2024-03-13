@@ -2,6 +2,8 @@
 # .zshrc
 #
 
+export ZSH=~"/.oh-my-zsh"
+
 # Enable plugins.
 plugins=(git brew zsh-history-substring-search zsh-autosuggestions zsh-syntax-highlighting)
 
