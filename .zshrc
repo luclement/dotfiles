@@ -4,6 +4,8 @@
 
 export ZSH=~"/.oh-my-zsh"
 
+ZSH_THEME="spaceship"
+
 # Enable plugins.
 plugins=(git brew zsh-history-substring-search zsh-autosuggestions zsh-syntax-highlighting)
 
@@ -19,11 +21,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 eval "$(pyenv init -)"
-
-# Allow history search via up/down keys.
-source ${share_path}/zsh-history-substring-search/zsh-history-substring-search.zsh
-bindkey "^[[A" history-substring-search-up
-bindkey "^[[B" history-substring-search-down
 
 # Git aliases.
 alias gs='git status'
